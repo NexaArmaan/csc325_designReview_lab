@@ -17,6 +17,7 @@ public class Student extends Human{
     private int credits;
 
     // ToDo 2: Fix the resulting errors
+    // ToDo 6: Fix the constructor of the Student class
     //Constructor
     public Student(String name, short age, int credits) {
         super(name, age);
