@@ -14,11 +14,13 @@ public class Student extends Human{
     //Required variable
     private String address;
     private float gpa;
+    private int credits;
 
     // ToDo 2: Fix the resulting errors
     //Constructor
-    public Student(String name, short age) {
+    public Student(String name, short age, int credits) {
         super(name, age);
+        this.credits = credits;
     }
 
     //Address getter method
@@ -47,5 +49,12 @@ public class Student extends Human{
     }
 
 
-
+    // ToDo 9: Add a toString method for the Student class
+    @Override
+    public String toString() {
+        return "Student Name: " + getName() +
+                ", Age: " + getAge() +
+                ", Credits: " + credits +
+                ", GPA: " + gpa;
+    }
 }

@@ -11,32 +11,25 @@ package com.mycompany.csc325_oop_designreview_lab;
 public class MainClass {
 
  public static void main(String[] args) {
-		// ToDo 5: Fix the error
+	 // ToDo 5: Fix the error
 
-		// ToDo 6: Fix the constructor of the Student class
+	 // ToDo 6: Fix the constructor of the Student class
 
-                // Todo 7: Create two classes for Freshman and Senior 
+	 Freshman std1= new Student("James",  20);
+	 // ToDo 11: Add a toString method for the Senior class
 
-                // ToDo 8: The senior class should have a minimum of 85 credits  
+	 Freshman std1= new Student("James", 20, 12); // name, age, credits
 
-		// ToDo 9: Add a toString method for the Student class
-		// ToDo 10: Add a toString method for the Freshman class
+	 Senior std2 = new Student("John", 30, 90);
 
-		Student std1= new Student("James", 20);
-                // ToDo 11: Add a toString method for the Senior class
+	 // ToDo 12: Set the gpa of the student using the scanner and user
+	 // 			input and then print the output.
 
-		Freshman std1= new Student("James", 20, 12); // name, age, credits
+	 System.out.println(std1);
 
-                Senior std2 = new Student("John", 30, 90);
+	 System.out.println(std2);
 
-		// ToDo 12: Set the gpa of the student using the scanner and user
-		// 			input and then print the output.
-
-		System.out.println(std1);
-
-                System.out.println(std2);
-
-		// ToDo 13: add comments and explain your code
+	 // ToDo 13: add comments and explain your code
 
 	}
 
